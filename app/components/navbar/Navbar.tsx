@@ -14,7 +14,7 @@ export const NavBar = () => {
         AzSure
       </Link>
 
-      <nav className="hidden gap-12 lg:flex">
+      {/* <nav className="hidden gap-12 lg:flex">
         <a
           href="#"
           className="text-lg font-semibold text-gray-600 transition duration-100 hover:text-blue-500 active:text-blue-700"
@@ -51,9 +51,9 @@ export const NavBar = () => {
         >
           About
         </a>
-      </nav>
+      </nav> */}
 
-      <div className="-ml-8 hidden flex-col gap-2.5 sm:flex-row sm:justify-center lg:flex lg:justify-start">
+      {/* <div className="-ml-8 hidden flex-col gap-2.5 sm:flex-row sm:justify-center lg:flex lg:justify-start">
         <a
           href="#"
           className="inline-block rounded-lg px-4 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-blue-300 transition duration-100 hover:text-blue-500 focus-visible:ring active:text-blue-600 md:text-base"
@@ -67,7 +67,7 @@ export const NavBar = () => {
         >
           Sign up
         </a>
-      </div>
+      </div> */}
 
       <button
         type="button"
